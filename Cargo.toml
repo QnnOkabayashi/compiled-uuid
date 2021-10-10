@@ -1,0 +1,19 @@
+[package]
+name = "compiled-uuid"
+version = "0.1.0"
+authors = ["Quinn Okabayashi"]
+edition = "2018"
+description = "Parse UUIDs at compile time"
+keywords = ["uuid", "proc-macro"]
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.80"
+quote = "1.0.10"
+proc-macro2 = "1.0.29"
+
+uuid = "0.8"
+thiserror = "1.0.*"
