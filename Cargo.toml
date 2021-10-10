@@ -6,6 +6,7 @@ edition = "2018"
 description = "Parse UUIDs at compile time"
 keywords = ["uuid", "proc-macro"]
 license = "MIT"
+repository = "https://github.com/QnnOkabayashi/compiled-uuid"
 
 [lib]
 proc-macro = true
